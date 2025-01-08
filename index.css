@@ -206,7 +206,7 @@ Hero
 }
 @media screen and (min-width: 768px) {
   .hero {
-    background: linear-gradient(rgb(44, 174, 186, 0.7), rgba(0, 0, 0, 0.7)),
+    background:
       url('./images/IMG_20241216_145416_104.jpg') center/cover no-repeat;
   }
   .hero-banner {
@@ -482,6 +482,8 @@ Navbar
 /* add :not(.nav-logo) to img */
 .nav-logo{
   background: url(./images/cos\ lo\ 2.jpg);
+  width:2em;
+  height:2em;
 }
 .navbar {
   position: fixed;
